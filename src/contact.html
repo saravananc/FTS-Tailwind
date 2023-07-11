@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FTS</title>
     <link rel="stylesheet" href="style.css">
-    <script src="Script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="Script.js"></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
             </button>
 
             <div class="flex flex-col justify-center space-y-8 items-center flex-grow">
-                <a href="#" class="font-semibold hover:text-3xl hover:font-normal">Home</a>
+                <a href="/Index.html" class="font-semibold hover:text-3xl hover:font-normal">Home</a>
                 <a href="/About.html" class="font-semibold hover:text-3xl hover:font-normal">About</a>
                 <a href="/Courses.html" class="font-semibold hover:text-3xl hover:font-normal">Courses</a>
                 <a href="#" class="font-semibold hover:text-3xl hover:font-normal">Benefits</a>
@@ -61,60 +61,33 @@
                         aria-controls="logo-sidebar" type="button"
                         class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                         <span class="sr-only">Open sidebar</span>
-                        <iconify-icon icon="ic:baseline-menu-open" width="30" height="40" class="hover:rotate-180"></iconify-icon>
+                        <iconify-icon icon="ic:baseline-menu-open" width="30" height="40"
+                            class="hover:rotate-180"></iconify-icon>
                     </button>
                 </div>
-                <div class="mt-10 md:grid md:grid-cols-2">
-                    <div class="md:mt-12 flex flex-col justify-evenly">
-                        <p class="text-xl text-gray-400 font-semibold md:text-4xl">
-                            Does Coding Fascinate You?
-                        </p>
-                        <p class="text-3xl text-black font-semibold md:text-5xl mt-3">
-                            Want to become a <br>SOFTWARE DEVELOPER?
-                        </p>
-                        <p class="text-xl text-gray-400 font-normal md:text-3xl mt-3">
-                            FTS is the Right Choice
-                        </p>
+                <article class="mt-10">
+                    <p class="text-lg text-rose-600">Contact us</p>
+                    <p class="text-black text-2xl md:text-4xl ">Get In Touch</p>
+                    <p class="line-clamp-3 mt-3 text-xs md:text-lg">
+                        Our courses at FTS Academy are taught by industry experts,
+                        ensuring that you receive valuable insights <br />and guidance from professionals who have
+                        hands-on experience in the field.
+                    </p>
+                </article>
+
+                <div class="grid gap-0 md:grid-cols-2  my-16 border ">
+                    <div class="flex flex-col items-center  md:flex-row md:max-w-xl  ">
+                        <img class="object-cover w-full h-96 md:h-auto md:w-48  " src="./Images/contact-us.jpg" alt="contact-us">
+                        
                     </div>
-                    <div class="flex items-center justify-center">
-                        <img src="./Images/banner.jpg" alt="FTS banner">
+                    <div class="flex flex-col items-center  md:flex-row md:max-w-xl  ">
+                       <p class="text-sm text-purple-700 ">Name</p>
+                       
+                        
                     </div>
-                </div>
-                <div class="">
-                    <div class="grid grid-cols-1 md:grid-cols-3 mt-2">
-                        <div class="border  rounded-lg mx-0 md:mr-5 my-5 flex justify-between">
-                            <div>
-                                <p class="text-black text-start text-xl my-2 ms-2">Courses</p>
-                                <p class="text-black text-start text-sm my-2 ms-2">20+</p>
-                            </div>
-                            <div class="mt-5 me-3 text-purple-700 align-middle justify-center justify-items-center">
-                                <img class="h-8 w-8" src="./Images/courses.png" alt="FTS courses">
-                            </div>
-                        </div>
-                        <div class="border  rounded-lg mx-0 md:mr-5 my-5 flex justify-between">
-                            <div>
-                                <p class="text-black text-start text-xl my-2 ms-2">Students</p>
-                                <p class="text-black text-start text-sm my-2 ms-2">12,000</p>
-                            </div>
-                            <div class="mt-5 me-3 text-purple-700 align-middle justify-center justify-items-center">
-                                <img class="h-8 w-8" src="./Images/students.png" alt="FTS Students">
-                            </div>
-                        </div>
-                        <div class="border rounded-lg mx-0 md:mr-5 my-5 flex justify-between">
-                            <div>
-                                <p class="text-black text-start text-xl my-2 ms-2">Placements</p>
-                                <p class="text-black text-start text-sm my-2 ms-2">100%</p>
-                            </div>
-                            <div class="mt-5 me-3 text-purple-700 align-middle justify-center justify-items-center">
-                                <img class="h-8 w-8" src="./Images/placements.png" alt="FTS Placements">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-center md:text-end">
-                        <button
-                            class="rounded-lg border-solid border-2 text-sm text-white bg-rose-600 hover:bg-rose-500 hover:shadow-md px-5 py-2">Register
-                            Now</button>
-                    </div>
+                    
+                   
+                   
                 </div>
             </div>
             <div class="hidden md:flex w-2/12 bg-gray-100 flex-col justify-between px-10 py-8  right-0 min-h-max">
@@ -123,7 +96,6 @@
                     class="rounded-lg border-solid border-2 text-sm border-rose-300 hover:border-rose-400 text-rose-600 hover:text-rose-700 bg-gray-100 py-2 mx-7 md:mx-0 md:w-full h-15">
                     Enroll Now
                 </button>
-
                 <div class="flex flex-col justify-between items-center space-y-8">
                     <a href="/Index.html" class="font-semibold hover:text-3xl hover:font-normal">Home</a>
                     <a href="/About.html" class="font-semibold hover:text-3xl hover:font-normal">About</a>
@@ -162,5 +134,3 @@
 </body>
 
 </html>
-
-
